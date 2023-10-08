@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+    </head>
+    <body>
+        <h1 th:text="'Hello, ' + ${bot.getName()}+'!'"></h1>
+        <p th:text="'Birthday: ' + ${bot.getBirthDate()}"></p>
+        <p th:text="'Weight: ' + ${bot.getWeight()}"></p>
+    </body>
+</html>
